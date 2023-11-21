@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.top-bar {
+    background-color: rgb(39, 169, 230);
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.logo {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.logo img {
+    max-width: 10%;
+    height: auto;
+}
+
+.menu {
+    display: inline-block;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px;
+}
+
+.menu a:hover {
+    border-bottom: 2px solid white;
+}
+
+.footer {
+    background-color: rgb(39, 169, 230);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.carousel-container {
+    width:20%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+    height: auto;
+}
+
+
+.almirantes-gallery {
+    display: flex; 
+    justify-content: space-around; 
+}
+
+
+.marinheiros {
+    text-align: center; 
+    flex: 1; 
+}
+
+.marinheiros img {
+    display: block; 
+    margin: 0 auto; 
+}
+
+.marinheiros p {
+    margin-top: 10px; 
+}
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4c9baf;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #458ea0;
+}
+
+.error {
+    color: red;
+}
